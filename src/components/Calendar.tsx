@@ -35,7 +35,7 @@ const Calendar: React.FC = () => {
             <td className="time">10AM</td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event='Subway 🚊' color ='pink'/>
             <td></td>
             <td></td>
             <td></td>
@@ -46,7 +46,7 @@ const Calendar: React.FC = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event='Subway 🚊' color ='pink'/>
             <td></td>
             <td></td>
             <td></td>
@@ -74,7 +74,7 @@ const Calendar: React.FC = () => {
           <tr>
             <td className="time">2PM</td>
             <td></td>
-            <td></td>
+            <Event event='Subway 🚊' color ='pink'/>
             <td></td>
             <td></td>
             <td></td>
@@ -84,11 +84,11 @@ const Calendar: React.FC = () => {
           <tr>
             <td className="time">3PM</td>
             <td></td>
+            <Event event='Subway 🚊' color ='pink'/>
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
+            <Event event='Subway 🚊' color ='pink'/>
             <td></td>
           </tr>
         </tbody>
